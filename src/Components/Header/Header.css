@@ -1,0 +1,8 @@
+.Header{
+    background-image: url(./header-and-hero-section.jpeg);
+    background-size: cover;
+}
+
+.Hero-Section{
+    margin-top: 15%;
+}
