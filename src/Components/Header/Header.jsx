@@ -23,7 +23,8 @@ const Header = () =>{
         </li>
       </ul>
       <div class="d-flex text-white">
-      <h6><iconify-icon class="btn-group-vertical me-1" icon="ic:outline-account-circle"></iconify-icon>Account</h6>
+     
+      <h6> <Icon class="btn-group-vertical me-1" icon="ic:outline-account-circle" />Account</h6>
       </div>
     </div>
   </div>
@@ -31,13 +32,14 @@ const Header = () =>{
 <div className="container Hero-Section">
   <div className="row text-white">
     <div className="col-3 col-lg-3 d-flex flex-column">
-      <div className="d-flex flex-column"><h6>Follow</h6></div>
-      <span><iconify-icon icon="ic:outline-account-circle"></iconify-icon></span>
-      <span><iconify-icon icon="ic:outline-account-circle"></iconify-icon></span>
+      <div className="d-flex flex-column"><h6>Follow</h6>
+      </div>
+      <span><Icon icon="mdi:instagram" /></span>
+      <span><Icon icon="mdi:twitter" /></span>
     </div>
     <div className="col-6 col-lg-8">
       <h1 className='display-2 fw-medium'>Be prepared for the  Mountains and beyond!</h1>
-      <button type="button" class="btn btn-outline-success text-white border-0">scroll down<iconify-icon class="btn-group-vertical me-1" icon="icons8:down-arrow"></iconify-icon></button>
+      <button type="button" class="btn btn-outline-success text-white border-0">scroll down <Icon class="btn-group-vertical me-1" icon="icons8:down-arrow" /></button>
     </div>
     <div className="col-1 col-lg- d-flex flex-column text-end">
       <h6>Start</h6>
