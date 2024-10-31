@@ -13,7 +13,7 @@ const About = () => {
                 <div className="container position-relative mb-5">
                     <div className="row align-items-center">
                         <div className="text-white col-lg-6">
-                            <div className="d-flex">
+                            <div className="d-flex pb-3">
                                 <hr className="w-25 text-danger border-3 me-2" /> <h4 className="text-warning text-uppercase">GEt Started</h4>
                             </div>
                             <h1 className="display-2 fw-normal">What level of hiker are you?</h1>
@@ -55,7 +55,7 @@ const About = () => {
                 <div className="container position-relative py-5">
                     <div className="row align-items-center">
                         <div className="text-white col-lg-6">
-                            <div className="d-flex">
+                            <div className="d-flex pb-3">
                                 <hr className="w-25 text-danger border-3 me-2" /> <h4 className="text-warning text-uppercase">where you go is the key</h4>
                             </div>
                             <h1 className="display-2 fw-normal">Understand Your <br /> Map & Timing</h1>
@@ -67,7 +67,7 @@ const About = () => {
                             <img className="img-fluid" src={AboutImg03} alt="Image03" />
                         </div>
                     </div>
-                    <div className="position-absolute img-one">
+                    <div className="position-absolute img-three">
                         <img src={ImageThree} alt="Image" />
                     </div>
                 </div>
